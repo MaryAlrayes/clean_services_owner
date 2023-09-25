@@ -1,0 +1,207 @@
+{
+
+"app_name":"सफाई सेवा",
+"saudi":"सऊदी",
+"laundry_owner":"कपड़े धोने का मालिक",
+"phone_number":"फ़ोन नंबर",
+"password":"पासवर्ड",
+"login":"लॉग इन करें",
+"dont_have_an_account":"खाता नहीं है?",
+"create_account":"साइन अप करें",
+"copy_right":"सफाई सेवा ऐप के लिए सर्वाधिकार सुरक्षित {year}",
+"@copy_right": {
+  "placeholders":{
+      "year":{
+          "type": "DateTime",
+          "format": "yyyy",
+          "isCustomDateFormat": "true"
+      }
+  }
+},
+"forget_password":"क्या तुम अपना पासवर्ड भूल गए हो?",
+
+"sign_up_welcome":"स्वागत है... एक खाता बनाएं और हमसे जुड़ें!",
+"laundry_name":"कपड़े धोने का नाम",
+"laundry_location":"कपड़े धोने का स्थान",
+"choose_city":"शहर चुनें",
+"confirm_password":"पासवर्ड की पुष्टि कीजिये",
+"conditions_terms":"नियम और शर्तें",
+"i_agree":"मैं सहमत हूँ",
+
+"log_out":"लॉग आउट कर रहा हूं",
+"confirm_log_out":"क्या आप लॉग आउट करना चाहते हैं?",
+"yes":"हां",
+"cancel":"रद्द करना",
+
+"orders_nav":"आदेश",
+"statistics_nav":"आंकड़े",
+"profile_nav":"कपड़े धोने का विवरण",
+"settings_nav":"समायोजन",
+"logout_nav":"लॉग आउट",
+
+"change_language":"भाषा बदलो",
+"change_password":"पासवर्ड बदलें",
+"language":"भाषा",
+"old_password":"पुराना पासवर्ड",
+"new_password":"नया पासवर्ड",
+"confirm_new_password":"नए पासवर्ड की पुष्टि करें",
+"done":"किया हुआ",
+
+"set_location":"स्थान तय करें",
+"should_set_location":"* आपको अपने लॉन्ड्री स्थान के निर्देशांक निर्दिष्ट करने होंगे",
+"coords_has_been_fetched":"आपका स्थान सफलतापूर्वक प्राप्त कर लिया गया है",
+"we_have_your_coords":"हमारे पास आपके कपड़े धोने का स्थान है",
+"error_fetching_coords":"दुर्भाग्य से, हम आपके स्थान निर्देशांक प्राप्त करने में असमर्थ रहे, पुनः प्रयास करें",
+"retry":"पुन: प्रयास करें",
+"fetch_coords_loading":"निर्देशांक लाए जा रहे हैं...",
+"are_you_in_laundry":"क्या आप अभी लॉन्ड्री में हैं?",
+"fetching_location_msg1":"- ग्राहकों और डिलीवरीमैन को आपकी लॉन्ड्री तक पहुँचने में मदद करने के लिए आपको अपना वर्तमान स्थान सेट करना होगा।",
+"fetching_location_msg2":"- आपको अभी अपने कपड़े धोने में होना चाहिए क्योंकि आपका वर्तमान स्थान आपके कपड़े धोने के स्थान के रूप में लिया जाएगा।",
+"fetching_location_msg3":"- जब आप इस बटन को दबाएंगे तो लॉन्ड्री के निर्देशांक अपने आप प्राप्त हो जाएंगे।",
+"fetch_coords":"निर्देशांक प्राप्त करें",
+
+
+
+"edit_profile":"कपड़े धोने का विवरण संपादित करें",
+"edit":"संपादन करना",
+"laundry_services":"धुलाई सेवाएं",
+"laundry_offers":"कपड़े धोने की पेशकश",
+"offer_type":"ऑफर का प्रकार",
+"target_group":"लक्षित समूह",
+"offer_start_date":"ऑफ़र प्रारंभ दिनांक",
+"offer_end_date":"ऑफ़र की समाप्ति तिथि",
+"free_delivery_offer":"फ्री डिलीवरी ऑफर",
+"discount_offer_perctnage":"{amount}% छूट की पेशकश",
+"@discount_offer_perctnage":{
+        "placeholders":{
+            "amount":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+"add_service":"सेवा जोड़ें",
+"item_type":"वस्तु परक",
+"service_type":"सेवा प्रकार",
+"counts":"गिनती करना",
+"price":"कीमत",
+"total":"कुल",
+"services_provided_with_it":"इसके साथ प्रदान की जाने वाली सेवाएं",
+"item_weight":"आइटम का वजन",
+"heavy_item_weight":"अधिक वज़नदार",
+"light_item_weight":"रोशनी",
+"choose_item_weight":"आइटम का वजन चुनें",
+"services_provided_with_the_item":"आइटम पर दी जाने वाली सेवाएं",
+"service_field":"सर्विस",
+"price_field":"कीमत",
+"add_new_service_for_item":"आइटम में एक नई सेवा जोड़ें",
+"add":"जोड़ें",
+"delete":"मिटाना",
+"item_type_missed_msg":"आपको आइटम का प्रकार चुनना चाहिए",
+"item_weight_missed_msg":"आपको आइटम का वजन चुनना चाहिए",
+"empty_services_fields_msg":"सुनिश्चित करें कि सभी फ़ील्ड सही तरीके से भरे गए हैं या सेवा को हटा दें",
+"wrong_price_msg":"सुनिश्चित करें कि मूल्य सही ढंग से दर्ज किया गया है",
+"one_service_should_added_least":"आपको कम से कम एक सेवा जोड़नी होगी",
+"service_number_label":"सेवा संख्या",
+"edit_or_delete_msg":"क्या आप सेवा संख्या को संशोधित या हटाना चाहते हैं?",
+"edit_service":"सेवा संपादित करें",
+
+"delivery_offer":"वितरण प्रस्ताव",
+"discount_offer":"डिस्काउंट ऑफर",
+"offer_period_length":"प्रस्ताव अवधि की लंबाई",
+"select_target_group":"लक्षित समूहों का चयन करें",
+"discount_percentage":"छूट प्रतिशत",
+"choose_discount_percentage":"डिस्काउंट प्रतिशत चुनें",
+"send_to_admin":"व्यवस्थापक को भेजें",
+"delivery_label":"यह ऑफ़र निर्दिष्ट श्रेणियों के लिए आपके ऑर्डर निःशुल्क वितरित करने के लिए है और एक निश्चित अवधि के लिए मान्य है।",
+"discount_label":"आपके द्वारा निर्दिष्ट श्रेणियों के लिए ग्राहक के बिल पर छूट प्रदान करें, एक निश्चित अवधि के लिए मान्य।",
+"bronze":"पीतल",
+"silver":"चाँदी",
+"gold":"सोना",
+"diamond":"हीरा",
+"accepted_from_admin":"व्यवस्थापक द्वारा स्वीकृत",
+"pending_admin_acceptence":"लंबित व्यवस्थापक स्वीकृति",
+
+
+"daily_sails":"दैनिक पाल",
+"sails_statistics":"बिक्री सांख्यिकी",
+"order_numbers_delivered_today":"आज डिलीवर किए गए ऑर्डर की संख्या",
+"running_orders_sofar":"अब तक जितने ऑर्डर चल रहे हैं",
+"orders_done_chart_bar_label":"पूर्ण आदेश",
+"payment_chart_bar_label":"प्राप्त धनराशि",
+
+
+"order_number_label":"आदेश संख्या।",
+"order_details":"ऑर्डर का विवरण",
+"order_id":"आदेश ID:",
+"order_status":"आदेश की स्थिति:",
+"order_owner":"आवेदक:",
+"his_phone":"फ़ोन नंबर:",
+"order_date":"आर्डर की तारीख:",
+"saudi_currency":"सऊदी रियाल",
+"saudi_currency_abb":"SR",
+
+"accept_btn":"स्वीकार करना",
+"reject_btn":"अस्वीकार",
+"finish_btn":"खत्म करना",
+"start_btn":"शुरू",
+"recieve_from_delivery_btn":"डिलीवरी मैन से प्राप्त किया",
+"ask_delivery_to_recieve_btn":"डिलीवरी मैन से रिसीव करने के लिए कहें",
+"deliver_to_client_from_laundry_btn":"क्लाइंट को डिलीवर करें",
+"deliver_to_delivery_from_from_laundry_btn":"डिलीवरीमैन को सुपुर्द करें",
+
+"no_internet_msg":"कोई इंटरनेट कनेक्शन नहीं",
+"please_choose_city":"कृपया, अपना शहर चुनें",
+"please_make_sure_passwords_equals":"कृपया, सुनिश्चित करें कि पासवर्ड मेल खाते हैं",
+"please_accept_terms":"आपको नियम और शर्तों पर स्वीकार करना होगा",
+"something_wrong_happened_try_again":"भेजते समय एक त्रुटि हुई, कृपया पुनः प्रयास करें",
+
+
+"pending_laundry_acceptance":"लंबित लॉन्ड्री स्वीकृति",
+"pending_acceptance_delivery":"लंबित डिलीवरीमैन रिसेप्शन स्वीकृति",
+"onWay_to_recieve_from_client":"क्लाइंट से लाया जा रहा है",
+"onWay_to_deliver_to_laundry":"कपड़े धोने के लिए लाया जा रहा है",
+"pre_processing":"पूर्व प्रसंस्करण",
+"processing":"प्रसंस्करण",
+"ready_to_deliver":"पहुंचाने के लिए तैयार है",
+"pending_acceptance_from_delivery_to_recieve_from_laundry":"लंबित वितरणकर्ता स्वीकृति प्रदान करता है",
+"onWay_to_recieve_from_laundry":"कपड़े धोने से लाया जा रहा है",
+"onWay_to_deliver_to_client":"क्लाइंट के पास लाया जा रहा है",
+"recieved":"पूर्ण",
+"all_orders":"सभी ऑर्डर",
+"this_field_cannot_be_empty":"यह स्थान खाली नहीं रह सकता",
+"make_sure_valid_phone":"सुनिश्चित करें कि आप एक मान्य फ़ोन नंबर दर्ज कर रहे हैं",
+"you_must_enter_your_phone":"आपको अपना फोन नंबर दर्ज करना होगा",
+"you_must_enter_your_password":"आपको अपना पासवर्ड दर्ज करना होगा",
+"phone_or_password_not_correct":"फोन या पासवर्ड मान्य नहीं है",
+
+
+"custom_date_time":"{my_date}",
+"@custom_date_time":{
+ "placeholders":{
+ "my_date":{
+     "type": "DateTime",
+     "format": "EE dd/MM/y - hh:mm a",
+     "isCustomDateFormat": "true"
+   }
+ }
+},
+"custom_date":"{date}",
+    "@custom_date":{
+     "placeholders":{
+     "date":{
+         "type": "DateTime",
+         "format": "d/MM/y",
+         "isCustomDateFormat": "true"
+     }
+  }
+}
+
+
+
+
+
+
+
+}

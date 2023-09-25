@@ -1,0 +1,212 @@
+{
+  "@@locale": "ar",
+"app_name":"خدمات التنظيف",
+"saudi":"السعودية",
+"laundry_owner":"صاحب المغسل",
+"phone_number":"رقم الهاتف المحمول",
+"password":"كلمة السر",
+"login":"تسجيل الدخول",
+"dont_have_an_account":"ليس لديك حساب؟",
+"create_account":"إنشاء حساب",
+"copy_right":"جميع الحقوق محفوظة لتطبيق خدمات التنظيف {year}",
+"@copy_right": {
+  "placeholders":{
+      "year":{
+          "type": "DateTime",
+          "format": "yyyy",
+          "isCustomDateFormat": "true"
+      }
+  }
+},
+"forget_password":"هل نسيت كلمة المرور؟",
+
+"sign_up_welcome":"أهلا وسهلا... قم بإنشاء حساب وانضم إلينا!",
+"laundry_name":"اسم المغسل",
+"laundry_location":"عنوان المغسل",
+"choose_city":"اختر مدينتك",
+"confirm_password":"تأكيد كلمة السر",
+"conditions_terms":"الشروط و الأحكام",
+"i_agree":"أوافق على",
+
+"log_out":"تسجيل الخروج",
+"confirm_log_out":"هل أنت متأكد من أنك تريد تسجيل الخروج؟",
+"yes":"نعم",
+"cancel":"إغلاق",
+
+"orders_nav":"الطلبيات",
+"statistics_nav":"الاحصائيات",
+"profile_nav":"تفاصيل مغسلتك",
+"settings_nav":"الاعدادات",
+"logout_nav":"تسجيل الخروج",
+
+"change_language":"تغيير اللغة",
+"change_password":"تغيير كلمة المرور",
+"language":"اللغة",
+"old_password":"كلمة السر القديمة",
+"new_password":"كلمة السر الجديدة",
+"confirm_new_password":"تأكيد كلمة المرور الجديدة",
+"done":"تم",
+
+"set_location":"ضبط الموقع",
+"should_set_location":"*عليك تحديد احداثيات موقع مغسلك",
+"coords_has_been_fetched":"تم جلب احداثيات موقعك بنجاح",
+"we_have_your_coords":"احداثيات مغسلك لدينا",
+"error_fetching_coords":"للأسف لم نتمكن من الحصول على احداثيات موقعك، حاول مرة أخرى",
+"retry":"إعادة المحاولة",
+"fetch_coords_loading":"جاري جلب الاحداثيات...",
+"are_you_in_laundry":"هل أنت متواجد في مغسلك؟",
+"fetching_location_msg1":"- يجب ضبط موقعك الحالي لنقوم بمساعدة الزبائن والمندوبين للوصول إلى مغسلك",
+"fetching_location_msg2":"- يجب أن تكون متواجد في مغسلك الان لأنه سوف يتم أخذ موقعك الحالي كموقع مغسلك",
+"fetching_location_msg3":"- سيتم جلب احداثيات المغسل أتوماتيكيا عند الضغط على الزر التالي",
+"fetch_coords":"جلب الاحداثيات",
+
+
+
+"edit_profile":"تعديل تفاصيل المغسل",
+"edit":"تعديل",
+"laundry_services":"خدمات المغسل",
+"laundry_offers":"عروض المغسل",
+"offer_type":"نوع العرض",
+"target_group":"الفئات المستهدفة",
+"offer_start_date":"تاريخ بداية العرض",
+"offer_end_date":"تاريخ نهاية العرض",
+"free_delivery_offer":"عرض توصيل مجاني",
+"discount_offer_perctnage":"عرض تخفيض بنسبة {amount}%",
+"@discount_offer_perctnage":{
+        "placeholders":{
+            "amount":{
+                "type":"num",
+                "format": "decimalPattern"
+
+            }
+        }
+    },
+
+
+"add_service":"إضافة خدمة",
+"item_type":"نوع القطعة",
+"service_type":"نوع الخدمة",
+"counts":"عدد القطع",
+"price":"السعر",
+"total":"التكلفة الكلية",
+"services_provided_with_it":"الخدمات المقدمة معها",
+"item_weight":"حجم القطعة",
+"heavy_item_weight":"ثقيلة",
+"light_item_weight":"خفيفة",
+"choose_item_weight":"اختر حجم القطعة",
+"services_provided_with_the_item":"الخدمات المقدمة على القطعة",
+"service_field":"الخدمة",
+"price_field":"السعر",
+"add_new_service_for_item":"إضافة خدمة جديدة على القطعة",
+"add":"إضافة",
+"delete":"حذف",
+"item_type_missed_msg":"عليك كتابة نوع القطعة",
+"item_weight_missed_msg":"عليك اختيار حجم الخدمة",
+"empty_services_fields_msg":"تأكد من تعبئة كافة الخانات بشكل صحيح أو قم بحذف الخدمة",
+"wrong_price_msg":"تأكد من إدخال السعر بشكل صحيح",
+"one_service_should_added_least":"عليك إضافة خدمة واحدة على الأقل",
+"service_number_label":"خدمة رقم",
+"edit_or_delete_msg":"هل تريد تعديل أم حذف الخدمة رقم",
+"edit_service":"تعديل خدمة",
+
+"delivery_offer":"عرض توصيل",
+"discount_offer":"عرض تخفيض",
+"offer_period_length":"مدة العرض",
+"select_target_group":"اختر الفئات المستفيدة من العرض",
+"discount_percentage":"نسبة التخفيض",
+"choose_discount_percentage":"اختر نسبة التخفيض",
+"send_to_admin":"إرسال للادمن",
+"delivery_label":"عرض توصيل طلباتك بشكل مجاني للفئات التي تحددها صالح لمدة معينة",
+"discount_label":"عرض تخفيض على فاتورة الزبون للفئات التي تحددها صالح لمدة معينة",
+"bronze":"برونزي",
+"silver":"فضي",
+"gold":"ذهبي",
+"diamond":"ألماسي",
+"accepted_from_admin":"تمت الموافقة عليه من قبل الادمن",
+"pending_admin_acceptence":"في انتظار قبول الادمن",
+
+
+"daily_sails":"المبيعات اليومية",
+"sails_statistics":"احصائيات المبيعات",
+"order_numbers_delivered_today":"عدد الطلبات التي تم تسليمها اليوم",
+"running_orders_sofar":"عدد الطلبات الجارية حتى اليوم",
+"orders_done_chart_bar_label":"الطلبات التي تم إنجازها",
+"payment_chart_bar_label":"المبالغ المالية المقبوضة",
+
+
+"order_number_label":"طلب رقم",
+"order_details":"تفاصيل الطلب",
+"order_id":"رقم الطلب: ",
+"order_status":"حالة الطلب: ",
+"order_owner":"صاحب الطلب: ",
+"his_phone":"رقم هاتفه: ",
+"order_date":"تاريخ إنشاء الطلب: ",
+"saudi_currency":"ريال سعودي",
+"saudi_currency_abb":"ر.س",
+
+"accept_btn":"قبول",
+"reject_btn":"رفض",
+"finish_btn":"انهاء",
+"start_btn":"بدء",
+"recieve_from_delivery_btn":"استلام من المندوب",
+"ask_delivery_to_recieve_btn":"طلب المندوب للتسليم",
+"deliver_to_client_from_laundry_btn":"تسليم العميل",
+"deliver_to_delivery_from_from_laundry_btn":"تسليم المندوب",
+
+"no_internet_msg":"لا يوجد اتصال بشبكة الانترنت",
+"please_choose_city":"من فضلك، قم باختيار مدينتك",
+"please_make_sure_passwords_equals":"من فضلك، تأكد بأن كلمتي السر متطابقتان",
+"please_accept_terms":"يجب عليك الموافقة على الشروط والأحكام",
+"something_wrong_happened_try_again":"حصل خطأ أثناء الإرسال، حاول مرة أخرى من فضلك",
+
+
+"pending_laundry_acceptance":"قيد انتظار قبول المغسلة",
+"pending_acceptance_delivery":"قيد انتظار موافقة استلام المندوب",
+"onWay_to_recieve_from_client":"قيد الاحضار من العميل",
+"onWay_to_deliver_to_laundry":"قيد الاحضار للمغسلة",
+"pre_processing":"قيد بدء التنفيذ",
+"processing":"قيد التنفيذ",
+"ready_to_deliver":"جاهز للتسليم",
+"pending_acceptance_from_delivery_to_recieve_from_laundry":"قيد انتظار موافقة التسليم للمندوب",
+"onWay_to_recieve_from_laundry":"قيد الاحضار من المغسلة",
+"onWay_to_deliver_to_client":"قيد الاحضار للعميل",
+"recieved":"تم التسليم",
+"all_orders":"جميع الطلبات",
+"this_field_cannot_be_empty":"لا يمكن لهذا الحق أن يكون فارغ",
+"make_sure_valid_phone":"تأكد من كتابة رقم الهاتف بشكل صحيح",
+"you_must_enter_your_phone":"عليك ادخال رقمك",
+"you_must_enter_your_password":"عليك ادخال كلمة السر",
+"phone_or_password_not_correct":"رقم الهاتف أو كلمة السر غير صحيحة",
+
+"custom_date_time":"{my_date}",
+"@custom_date_time":{
+ "placeholders":{
+ "my_date":{
+     "type": "DateTime",
+     "format": "EE dd/MM/y - hh:mm a",
+     "isCustomDateFormat": "true"
+ }
+ }
+},
+
+"custom_date":"{date}",
+"@custom_date":{
+     "placeholders":{
+     "date":{
+         "type": "DateTime",
+         "format": "d/MM/y",
+         "isCustomDateFormat": "true"
+     }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+}
